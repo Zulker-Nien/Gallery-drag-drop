@@ -1,27 +1,26 @@
-# React + TypeScript + Vite
+# Gallery Drag N Drop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Here's a beautiful drag and drop gallery made using native html5 and css and React.js
 
-Currently, two official plugins are available:
+## Important Dependencies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+    "sass": "^1.69.5",
+    "react-toastify": "^9.1.3",
 
-## Expanding the ESLint configuration
+## Feature list
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Native grid layout using sass.
+- Reordering images how you want to sort it.
+- Deleting single or multiple images at once.
+- Delete notification.
+- Setting feature image (currently set to the 1st index of the image array)
+- Image count (select the specific image you need)
+- Add New Image
+- Transition (scss flick)
+- Responsive (scss flick)
 
-- Configure the top-level `parserOptions` property like this:
+## Demo
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+[Live Demo Link](https://gallery-drag-drop.vercel.app/)
